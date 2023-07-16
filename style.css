@@ -1,0 +1,32 @@
+:root{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px black;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: transparent;
+    gap: 10px;
+}
